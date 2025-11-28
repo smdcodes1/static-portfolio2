@@ -36,7 +36,7 @@ ul{
   color:#fff;
 }
 .banner-top h1{
-  font-size: 8em;
+  font-size: 4em;
   font-weight: 700;
   padding-top: 1.5em;
 }
@@ -703,6 +703,48 @@ button.submit:hover {
 }
 .contact-details a {
   font-size: 1.3em;
+}
+.left_grid{
+	float:left;
+	width:50%;
+}
+.right_grid{
+	float:left;
+	width:50%;
+	/* align-items: center; */
+}
+.right_grid h3{
+	margin-top: 4px;
+	color: #fff;
+}
+ul.list2{
+  border-left: 11px solid whitesmoke;
+  padding-left:30px;
+  margin-top:1.5em;
+}
+ul.list2 li{
+  padding:6px 0;
+  color: #fff;
+  font-weight: 400;
+  font-size:0.95em;
+}
+ul.media_sec li{
+	margin-top:1.5em;
+	display:block;
+	align-items: block-start;
+	color: #fff;
+    font-weight: 500;
+	/* padding-left: 9px; */
+}
+ul.media_sec li a{
+	display:inline-block;
+	color: #fff;
+	font-weight: 500;
+	font-size:0.95em;
+	text-decoration:none;
+}
+ul.media_sec li img{
+	margin-right:5px;
 }
 .contact-icons {
   text-align: center;
